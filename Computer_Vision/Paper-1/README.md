@@ -12,3 +12,5 @@ The paper introduced:
 - END-to-END 3D detection architecture: that simultaneously learns the feeature representation from the raw point cloud data and predicts accureate 3D bounding boxes in an end-to-end fashion.
 
 VoxelNet in a nutshell “ Divide the point clouds into equally spaced 3D voxels, encode each voxel via stacked VFE layers into a vector, and then aggregate (combine) the local voxel features using 3D convolutional layers, transform the point cloud into high dimensional volumetric representation. Finally, the modified RPN network which intakes the volumetric representation and provides the detection result"
+
+Link for the implementation - https://github.com/anirudhjbabu1/LOD-3D/tree/main/Project-1
